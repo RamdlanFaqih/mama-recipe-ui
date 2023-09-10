@@ -1,0 +1,181 @@
+/* font-family: 'Inter', sans-serif; 
+font-family: "Airbnb Cereal App";*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Airbnb Cereal App";
+}
+
+header {
+    font-family: "Airbnb Cereal App";
+}
+.navbar {
+    margin-top: 10px;
+}
+
+#navbarSupportedContent {   
+    justify-content: space-between;
+}
+
+.content {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu .nav-link {
+    color: #2E266F;
+    margin-right: 100px;
+}
+
+.user {
+  
+}
+
+.user .nav-link {
+    color: white;
+}
+
+
+#left-hero {
+
+}
+
+#left-hero .hero-title{
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+#left-hero .hero-title h1{
+    color: #2E266F;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+#left-hero .search-bar input{
+    padding: 20px;
+}
+
+#right-hero .bg{
+    position: absolute;
+    background-color: #efc81a;
+    width: 35%;
+    height: 125vh;   
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+
+#right-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right-hero .container img{
+    width: 700px;
+}
+
+#landing {
+    /* height: 100vh; */
+    margin-bottom: 200px;
+}
+
+#popular {
+    margin-bottom: 200px;
+}
+
+#left-popular {
+   
+}
+
+.sub-title{
+    border-left: 25px solid #efc81a;
+    height: 100px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+}
+
+#left-popular .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left-popular .container-fluid img{
+    width: 600px;
+}
+
+#right-popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#right-popular .title {
+
+    
+}
+
+#right-popular .title h1 {
+    font-size: 56px;
+}
+
+#new-recipe {
+    margin-bottom: 200px;
+}
+
+#new-recipe .container-fluid img{
+    width: 600px;
+}
+
+#popular-recipe {
+    margin-bottom: 180px;
+
+}
+
+#popular-recipe #img-grid {
+    position: relative;
+}
+
+#popular-recipe .nametag {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+#grid .container-fluid img {
+    width: 100%;
+}
+
+footer {
+    background-color: #efc81a;
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-section {
+    margin-bottom: 100px;
+}
+
+#footer-section h1 {
+    font-size: 72px;
+    font-weight: lighter;
+    color: #2E266F;
+}
+
+#footer-section p {
+    margin-top: 61px;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #707070;
+}
+
+#footer-nav .nav-link {
+    color: #707070;
+    font-size: 16px;
+}

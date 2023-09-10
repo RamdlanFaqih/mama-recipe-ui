@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Airbnb Cereal App";
+}
+
+header {
+    font-family: "Airbnb Cereal App";
+}
+.navbar {
+    margin-top: 10px;
+}
+
+#navbarSupportedContent {   
+    justify-content: space-between;
+}
+
+.menu .nav-link {
+    color: #2E266F;
+    margin-right: 100px;
+}
+
+
+
+#all-content {
+    margin-top: 100px;
+}
+
+
+#title-content {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    margin-bottom: 100px;
+    color: #2E266F;
+}
+#title-content h1{
+    margin-bottom: 70px;
+}
+
+#title-content img {
+    width: 1002px;
+}
+
+#section-ingredients {
+    margin-bottom: 100px;
+}
+
+#video-step {
+    margin-bottom: 100px;
+    width: 40%;
+}
+
+#video-step .video-button {
+}
+
+
+#section-comment {
+    margin-bottom: 100px;
+   
+}
+
+#comment-type {
+  
+}
+#section-comment .button-send {
+    margin-top: 40px;
+    width: 30%;
+    
+}
+
+footer {
+    background-color: #efc81a;
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-section {
+    margin-bottom: 100px;
+}
+
+#footer-section h1 {
+    font-size: 72px;
+    font-weight: lighter;
+    color: #2E266F;
+}
+
+#footer-section p {
+    margin-top: 61px;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #707070;
+}
+
+#footer-nav .nav-link {
+    color: #707070;
+    font-size: 16px;
+}
+
+#footer-nav .copyright {
+   
+}
+
+
+
+
+
+
+
+
+
