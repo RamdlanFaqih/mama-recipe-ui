@@ -36,11 +36,23 @@ header {
    width: 70%;
    margin-bottom: 50px;
 }
-#insert button {
+#insert-data input{
+    display: none;
+}
+
+#insert-data label{
     background-color: #F6F5F4;
     padding-top: 100px;
     padding-bottom: 178px;
 }
+
+#insert-data label:hover{
+    background-color: #F6F5F4;
+    padding-top: 100px;
+    padding-bottom: 178px;
+    cursor: pointer;
+}
+
 
 #video-button button{
     text-decoration: none;

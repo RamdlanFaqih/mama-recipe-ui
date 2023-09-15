@@ -9,7 +9,7 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/add-recipe.css" />
+    <link rel="stylesheet" href="assets/css/detail-video-recipe.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -18,7 +18,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/airbnbcereal@1.1.0/stylesheet.min.css"
     />
-    <title>Add Recipe</title>
+    <title>Detail Video Recipe</title>
   </head>
   <body>
     <!-- navigation -->
@@ -40,13 +40,13 @@
             <div class="menu">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./add-recipe.html">Add Recipe</a>
+                  <a class="nav-link" href="#">Add Recipe</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./profile.html">Profile</a>
+                  <a class="nav-link" href="#">Profile</a>
                 </li>
               </ul>
             </div>
@@ -56,37 +56,55 @@
     </header>
     <!-- navigation -->
 
-<!-- main content -->
-<main>
-  <div class="container" id="all-content">
-    <div class="row align-items-center">
-      <div class="col-12 text-center mx-auto" id="insert">
-        <div class="d-grid mb-3" id="insert-data">
-            <input type="file" id="file" class="text-center">
-            <label for="file"><p>Image</p><img src="/assets/icon/addImage.svg" alt=""
-              /><p>Add Photo </p></label>
+    <!-- main content -->
+    <main class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-8">
+          <div class="main-video">
+            <div class="video">
+              <iframe
+                width="100%"
+                height="540"
+                src="https://www.youtube.com/embed/TcYCcXxMLfU?si=VGbonSaRiPV1Zm2b"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="detailVideo">
+                <h1>
+                  Cukup 1 Wajan! Resep GRILLED CHICKEN WITH MUSHROOM SAUCE [Menu
+                  Valentine]
+                </h1>
+                <p>3 Month Ago</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="mb-3">
-          <input class="form-control form-control-lg" type="text" placeholder="Title" aria-label=".form-control-lg example">
+        <div class="col-sm-12 col-lg-3">
+          <div class="anotherRecipe">
+            <div class="thumbnail">
+              <img src="assets/img/thumbnail-vid1.svg" alt="" />
+            </div>
+            <div class="detailContent">
+                <h4>Beef Steak with Curry Sauce</h4>
+                <p>Hana Lohana - 3 Month Ago</p>
+            </div>
+          </div>
+          <div class="anotherRecipe">
+            <div class="thumbnail">
+              <img src="assets/img/thumbnail-vid-2.svg" alt="" />
+            </div>
+            <div class="detailContent">
+                <h4>Beef Steak with Curry Sauce</h4>
+                <p>Hana Lohana - 3 Month Ago</p>
+            </div>
+          </div>
         </div>
-        <div class="mb-3">
-          <textarea class="form-control" placeholder="Ingredients" id="floatingTextarea2" style="height: 380px"></textarea>
-        </div>
-        <div class="d-grid mb-3" id="video-button">
-          <button class="btn" type="button">
-            <a class="video" href="#">Video</a>
-            </button>
       </div>
-    </div>
-    <div class="col-12 text-center mx-auto" id="post">
-      <div class="d-grid mb-3">
-        <button class="btn btn-warning" type="button">Post
-          </button>
-      </div>
-    </div>
-  </div>
-</main>
-<!-- end main content -->
+    </main>
+    <!-- main content -->
+
     <footer>
       <div class="row align-items-center">
         <section id="footer-section" class="container-fluid text-center">
