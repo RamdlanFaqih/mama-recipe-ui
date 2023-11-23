@@ -1,111 +1,108 @@
 /* font-family: 'Inter', sans-serif; 
 font-family: "Airbnb Cereal App";*/
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Airbnb Cereal App";
+  margin: 0;
+  padding: 0;
+  font-family: "Airbnb Cereal App";
 }
 
 header {
-    font-family: "Airbnb Cereal App";
+  font-family: "Airbnb Cereal App";
 }
 .navbar {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-#navbarSupportedContent {   
-    justify-content: space-between;
+#navbarSupportedContent {
+  justify-content: space-between;
 }
 
 .content {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu .nav-link {
-    color: #2E266F;
-    margin-right: 100px;
+  color: #2e266f;
+  margin-right: 100px;
 }
 
 .user {
-  
 }
 
 .user .nav-link {
-    color: white;
+  color: white;
 }
-
 
 #left-hero {
-
 }
 
-#left-hero .hero-title{
-    /* flex-direction: column;
+#left-hero .hero-title {
+  /* flex-direction: column;
     align-items: center;
     justify-content: center; */
 }
 
-#left-hero .hero-title h1{
-    color: #2E266F;
-    font-size: 72px;
-    font-weight: 500;
+#left-hero .hero-title h1 {
+  color: #2e266f;
+  font-size: 72px;
+  font-weight: 500;
 }
 
-#left-hero .search-bar input{
-    padding: 20px;
+#left-hero .search-bar input {
+  padding: 20px;
 }
 
-#right-hero .bg{
-    position: absolute;
-    background-color: #efc81a;
-    width: 35%;
-    height: 125vh;   
-    z-index: -1;
-    top: 0;
-    right: 0;
+#right-hero .bg {
+  position: absolute;
+  background-color: #efc81a;
+  width: 35%;
+  height: 125vh;
+  z-index: -1;
+  top: 0;
+  right: 0;
 }
 
-#right-hero .container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+#right-hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#right-hero .container img{
-    width: 700px;
+#right-hero .container img {
+  width: 700px;
+  height: 700px;
 }
 
 #landing {
-    /* height: 100vh; */
-    margin-bottom: 200px;
+  /* height: 100vh; */
+  margin-bottom: 200px;
 }
 
 #popular {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 #left-popular {
-   
 }
 
-.sub-title{
-    border-left: 25px solid #efc81a;
-    height: 100px;
-    padding-left: 5px;
-    margin-bottom: 50px;
+.sub-title {
+  border-left: 25px solid #efc81a;
+  height: 100px;
+  padding-left: 5px;
+  margin-bottom: 50px;
 }
 
 #left-popular .container-fluid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#left-popular .container-fluid img{
-    width: 600px;
+#left-popular .container-fluid img {
+  width: 600px;
+  height: 600px;
 }
 
 #right-popular {
@@ -115,74 +112,102 @@ header {
 }
 
 #right-popular .title {
-
-    
 }
 
 #right-popular .title h1 {
-    font-size: 56px;
+  font-size: 56px;
 }
 
 #new-recipe {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
-#new-recipe .container-fluid img{
-    width: 600px;
+#new-recipe .container-fluid img {
+  width: 600px;
 }
 
 #popular-recipe {
-    margin-bottom: 180px;
-
+  margin-bottom: 180px;
 }
 
 #popular-recipe #img-grid {
-    position: relative;
+  position: relative;
 }
 
 #popular-recipe .nametag {
-    position: absolute;
-    bottom: 0;
-    left: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
 }
 
 #grid .container-fluid img {
-    width: 100%;
+  width: 100%;
 }
 
 footer {
-    background-color: #efc81a;
-    height: 100vh;  
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #efc81a;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #footer-section {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 #footer-section h1 {
-    font-size: 72px;
-    font-weight: lighter;
-    color: #2E266F;
+  font-size: 72px;
+  font-weight: lighter;
+  color: #2e266f;
 }
 
 #footer-section p {
-    margin-top: 61px;
-    font-size: 24px;
-    font-weight: lighter;
-    color: #707070;
+  margin-top: 61px;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #707070;
 }
 
 #footer-nav .nav-link {
-    color: #707070;
-    font-size: 16px;
+  color: #707070;
+  font-size: 16px;
+}
+@media (max-width: 1440px) {
+  .bg {
+    height: 100vh;
+  }
 }
 
+@media (max-width: 992px) {
+  .bg {
+    display: none;
+  }
+  .user a.nav-link {
+    color: #2e266f;
+  }
+}
 
-@media screen and (max-width: 991px) {
-    .user a.nav-link {
-        color: #2E266F;
-    }
+@media (max-width: 768px) {
+  #left-hero .hero-title h1 {
+    font-size: 48px;
+  }
+
+  .subTitle {
+    margin-bottom: 30px;
+  }
+
+  .titleContent {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroTitle {
+    font-size: 36px;
+  }
+
+  .titleContent {
+    font-size: 32px;
+  }
 }
